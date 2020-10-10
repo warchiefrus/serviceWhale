@@ -62,7 +62,7 @@
         @pageChanged="getList"
       />
 
-      <Pagination
+      <ListPagination
         class="d-flex align-center"
         :class="
           $vuetify.breakpoint.smAndUp ? 'justify-start' : 'justify-center'
@@ -91,13 +91,13 @@ import { mapState, mapActions, mapMutations } from "vuex";
 import ListTable from "@/components/List/ListTable";
 import ListCard from "@/components/List/ListCard";
 import ListMobileDrawler from "@/components/List/ListMobileDrawler";
-import Pagination from "@/components/List/Pagination";
+import ListPagination from "@/components/List/ListPagination";
 
 export default {
   components: {
     ListTable,
     ListCard,
-    Pagination,
+    ListPagination,
     ListMobileDrawler,
   },
   computed: {
