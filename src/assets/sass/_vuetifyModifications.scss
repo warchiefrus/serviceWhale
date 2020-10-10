@@ -1,0 +1,62 @@
+//vuetify classes modification
+
+.v-main__wrap {
+  background-color: #E5E5E5;
+  padding-bottom: 60px;
+}
+
+@media (max-width: 600px) {
+  .v-main__wrap {
+    background-color: #F5F5F5;
+  }
+}
+
+.navbar {
+  .v-toolbar__content {
+    justify-content: center;
+  }
+  .max-content-size {
+    max-width: 1160px;
+  }
+}
+
+.v-text-field--outlined .v-label { 
+  top: 15px !important;
+}
+
+.v-label { 
+  font-size: 14px !important;
+}
+
+.v-pagination {
+  width: auto !important;
+}
+
+.v-text-field--enclosed .v-input__append-inner {
+  margin-top: 0 !important;
+}
+
+.theme--light.v-application {
+  color: black !important;
+}
+
+.theme--light.v-data-table {
+  color: black !important;
+  background: none !important;
+}
+
+.v-data-table > .v-data-table__wrapper > table > tbody {
+  background-color: white;
+}
+
+.v-data-table { 
+  overflow-x: auto !important;
+}
+
+.v-btn {
+  text-transform: none !important;
+}
+
+
+
+

@@ -1,0 +1,29 @@
+.list-layout {
+  height: 100%;
+  position: relative;
+}
+
+.list-header {
+  margin: 3vh 0;
+  display: grid;
+  grid-template-columns: 1fr minmax(100px, 280px) minmax(100px, 200px);
+  gap: 8px;
+}
+
+@media (max-width: 600px) {
+  .list-header {
+    grid-template-columns: 1fr;
+  }
+  .list-layout {
+    padding: 50px 16px;
+  }
+}
+
+.list-header__text {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.list-table {
+  border-bottom: thin solid rgba(0, 0, 0, 0.12);
+}

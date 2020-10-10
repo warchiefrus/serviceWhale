@@ -1,0 +1,22 @@
+.login-layout {
+  height: 100%;
+  padding: 0 16px;
+}
+
+.login-content {
+  max-width: 280px;
+  margin: auto;
+}
+
+.login-content__header {
+  margin: 59px 0 19px 0;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.login-content__subheader {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.54);
+}
