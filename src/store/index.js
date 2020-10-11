@@ -153,7 +153,7 @@ export default new Vuex.Store({
       return false;
     },
 
-    async updateData({ dispatch, commit }, payload) {
+    async updateData({ dispatch }, payload) {
       const request = {
         target: `api/v2/contrlead`,
         contentType: "application/json",
