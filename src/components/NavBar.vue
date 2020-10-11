@@ -6,7 +6,7 @@
     flat
     class="navbar primary"
   >
-    <v-container class="pa-0 d-flex flex-center-y flex-grow max-content-size">
+    <v-container class="px-4 d-flex flex-center-y flex-grow max-content-size">
       <span class="navbar__appname">CRM</span>
       <v-spacer></v-spacer>
       <v-btn v-if="isAuthenticated"
