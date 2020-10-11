@@ -54,9 +54,9 @@
         @pageChanged="getList"
       />
       <ListCard
+        v-else
         v-for="item of tableItems"
         :key="item.id"
-        v-else
         :item="item"
         @cardClicked="tableRowClicked"
         @pageChanged="getList"
