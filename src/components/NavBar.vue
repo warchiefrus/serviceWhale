@@ -4,7 +4,7 @@
     dark
     dense
     flat
-    class="navbar primary"
+    class="navbar primary pa-0"
   >
     <v-container class="px-4 d-flex flex-center-y flex-grow max-content-size">
       <span class="navbar__appname">CRM</span>
