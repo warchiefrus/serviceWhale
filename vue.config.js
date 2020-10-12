@@ -2,5 +2,6 @@ module.exports = {
   "transpileDependencies": [
     "vuetify"
   ],
-  publicPath: "/serviceWhale/"
+  publicPath: "/serviceWhale/",
+  productionSourceMap: false
 }
